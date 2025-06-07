@@ -1,23 +1,23 @@
 import { Card, CardContent } from "@/components/ui/card";
 
 const experiences = [{
-  title: "All-Ocean Suite Comfort",
-  description: "Enjoy spacious ocean-front suites, many with private verandas, stocked minibars, and personalized touches.",
+  title: "Ultra-Luxury Yachting",
+  description: "Small ship sophistication with spacious suites and award-winning service.",
   color: "bg-blue-50 text-blue-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684533/cld-sample-4.jpg"
 }, {
-  title: "World-Class Dining",
-  description: "Savor menus crafted in partnership with Chef Thomas Keller and inspired by the regions you explore.",
+  title: "Caviar in the Surf",
+  description: "Iconic beach BBQs where champagne and caviar are served surfside.",
   color: "bg-rose-50 text-rose-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684532/samples/cup-on-a-table.jpg"
 }, {
-  title: "All-Inclusive Indulgence",
-  description: "From premium wines and spirits to gratuities and Wi-Fi—every element of your Seabourn journey is included.",
+  title: "Seabourn Conversations",
+  description: "Guest speakers include authors, explorers, and visionaries on each sailing.",
   color: "bg-amber-50 text-amber-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684530/samples/balloons.jpg"
 }, {
-  title: "Curated Shore Experiences",
-  description: "Explore with expert-led excursions, including Ventures by Seabourn® expedition outings in select destinations.",
+  title: "Expedition Line Expansion",
+  description: "New polar ships bring luxury into the heart of ice-covered regions.",
   color: "bg-emerald-50 text-emerald-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684526/samples/landscapes/beach-boat.jpg"
 }];
@@ -68,7 +68,7 @@ const ExperienceAndWhy = () => {
           <div className="w-24 h-1 bg-viking-gold mx-auto"></div>
         </div>
 
-        {/* Viking River Cruises Section */}
+        {/* Seabourn Section */}
         <div className="mb-24">
           <div className="mb-12 flex justify-center border-2 border-viking-gold py-4">
             <img
